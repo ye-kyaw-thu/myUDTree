@@ -62,7 +62,7 @@ myUDTree Corpus နှင့် Original Myanmar UD Corpus နှစ်ခုက
 
 Table 2 Comparison of accuracy values between dependency parsing models  
 
-|Model	|UAS (myPOS ver.1)|LAS (myPOS ver.1)|UAS (myPOS ver.3)|LAS (myPOS ver.3)|
+|Model	|UAS <br/> (myPOS ver.1)|LAS (myPOS ver.1)|UAS (myPOS ver.3)|LAS (myPOS ver.3)|
 |:------------- |--------:| -----:|-----:|-----:|
 |jPTDP| 85.07%| 81.38%| 86.16%| 82.77%|
 |UniParse| 85.67%| 82.72%| 86.27%| 83.36%|
