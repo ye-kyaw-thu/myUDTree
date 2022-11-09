@@ -25,15 +25,12 @@ The myUDTree corpus is a Universal Dependency (UD) Corpus that extends the Myanm
 
 myUDTree ရဲ့ Corpus Information ကတော့ အောက်ပါအတိုင်းဖြစ်ပါတယ်။
 
-Table 1 Corpus information of myUDTree
-Unit	myPOS
-(ver. 1.0)	Ext-1:
-my-zh	Ext-2:
-my-ko	Ext-3: 
-ASEAN-MT my	myUDTree
-Sentences	11,000	10,000	10,052	12,144	43,196
-Words	239,598	103,909	106,864	114,134	564,505
-Average Words/Sentence	21.78	10.17	10.64	9.40	13.07
+Table 1 Corpus information of myUDTree  
+
+|Unit|myPOS (ver. 1.0)|Ext-1: my-zh|	Ext-2: my-ko|	Ext-3: ASEAN-MT my| myUDTree|
+|Sentences	|11,000	|10,000	|10,052	|12,144	|43,196|
+|Words	| 239,598 | 103,909 | 106,864 | 114,134 | 564,505|
+|Average Words/Sentence	| 21.78| 10.17|	10.64| 9.40| 	13.07|
 
 
 ## မိတ်ဆက် (Intoduction in Myanmar Language)
