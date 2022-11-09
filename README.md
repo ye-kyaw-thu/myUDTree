@@ -27,7 +27,7 @@ myUDTree ရဲ့ Corpus Information ကတော့ အောက်ပါအ�
 
 Table 1 Corpus information of myUDTree  
 
-|Unit|myPOS (ver. 1.0)|Ext-1: my-zh|	Ext-2: my-ko|	Ext-3: ASEAN-MT my| myUDTree|
+|Unit|myPOS (ver. 1.0)|Ext-1: my-zh|	Ext-2: my-ko|	Ext-3: ASEAN-MT (my)| myUDTree|
 |:------------- |--------:| -----:|-----:|-----:|-----:|
 |Sentences	|11,000	|10,000	|10,052	|12,144	|43,196|
 |Words	| 239,598 | 103,909 | 106,864 | 114,134 | 564,505|
@@ -60,11 +60,13 @@ Myanmar Dependency Structure မှာ အများဆုံး အသုံ�
 
 myUDTree Corpus နှင့် Original Myanmar UD Corpus နှစ်ခုကို အသုံးပြုပြီး တည်ဆောက်ခဲ့တဲ့ Dependency Parsing Models (i.e., jPTDT and UniParse) တွေရဲ့  Accuracies ကို အောက်ပါ Table တွင် ပြထားပါတယ်။
 
-Table 2 Comparison of accuracy values between dependency parsing models
-Models	Original myPOS	Extended myPOS Version 3.0
-	UAS	LAS	UAS	LAS
-jPTDP	85.07%	81.38%	86.16%	82.77%
-UniParse	85.67%	82.72%	86.27%	83.36%
+Table 2 Comparison of accuracy values between dependency parsing models  
+
+|Models	| Original myPOS | Extended myPOS (Version 3.0)|
+|	|UAS|LAS|UAS|LAS|
+|:------------- |--------:| -----:|-----:|-----:|
+|jPTDP|85.07%|81.38%|86.16%|82.77%|
+|UniParse| 85.67%|82.72%|86.27%|83.36%|
 
 
 Note: jPTDT Model က Raw Text Data ကို Parsed လုပ်ပေးနိုင်သော်လည်း UniParse Model ဟာဆိုရင်ဖြင့် Raw Text Data များကို Parsed မလုပ်ပေးနိုင်ပါ။ 
