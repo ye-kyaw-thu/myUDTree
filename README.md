@@ -62,11 +62,10 @@ myUDTree Corpus နှင့် Original Myanmar UD Corpus နှစ်ခုက
 
 Table 2 Comparison of accuracy values between dependency parsing models  
 
-|Models	| Original myPOS | Extended myPOS (Version 3.0)|
-|	|UAS|LAS|UAS|LAS|
+|Model	|UAS (myPOS ver.1)|LAS (myPOS ver.1)|UAS (myPOS ver.3)|LAS (myPOS ver.3)|
 |:------------- |--------:| -----:|-----:|-----:|
-|jPTDP|85.07%|81.38%|86.16%|82.77%|
-|UniParse| 85.67%|82.72%|86.27%|83.36%|
+|jPTDP| 85.07%| 81.38%| 86.16%| 82.77%|
+|UniParse| 85.67%| 82.72%| 86.27%| 83.36%|
 
 
 Note: jPTDT Model က Raw Text Data ကို Parsed လုပ်ပေးနိုင်သော်လည်း UniParse Model ဟာဆိုရင်ဖြင့် Raw Text Data များကို Parsed မလုပ်ပေးနိုင်ပါ။ 
