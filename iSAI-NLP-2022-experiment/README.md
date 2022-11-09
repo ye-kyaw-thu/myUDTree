@@ -2,6 +2,7 @@
 
 ## Folder Structure
 
+```
 iSAI-NLP-2022-experiment/
 ├── 1_Report-for-jPTDP_myPOS-V1-Model_to-Publish
 │   └── train_folder
@@ -19,3 +20,5 @@ iSAI-NLP-2022-experiment/
         ├── mypos-v3_dependency-training_notes.txt
         ├── mypos-ver-3-dep-model
         └── mypos-ver-3-dep-model.params
+```
+
