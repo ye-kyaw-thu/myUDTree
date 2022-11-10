@@ -83,4 +83,18 @@ Zar Zar Hlaing, Ye Kyaw Thu, Thepchai Supnithi and Ponrudee Netisopakul, "Graph-
 
 ## Reference
 
-Hnin Thu Zar Aye, Win Pa Pa, and Ye Kyaw Thu, "Unsupervised Dependency Corpus Annotation for Myanmar Language", In Proceedings of The 21st Conference of the Oriental Chapter of the International Coordinating Committee on Speech Databases and Speech I/O Systems and Assessment (Oriental COCOSDA 2018), May 2018, Miyazaki, Japan  
+1. The concept of Universal Dependencies (UD):  
+https://universaldependencies.org/  
+
+2. Hnin Thu Zar Aye, Win Pa Pa, and Ye Kyaw Thu, "Unsupervised Dependency Corpus Annotation for Myanmar Language", In Proceedings of The 21st Conference of the Oriental Chapter of the International Coordinating Committee on Speech Databases and Speech I/O Systems and Assessment (Oriental COCOSDA 2018), May 2018, Miyazaki, Japan  
+
+3. CoNLL-Viewer Tool:  
+https://urd2.let.rug.nl/~kleiweg/conllu/?fbclid=IwAR2Flucow_szmuB63-J2vuqSGiXXtCw8I_OUyHvxd4hZfs0oK0140x5oQtY  
+
+
+
+
+
+
+
+
