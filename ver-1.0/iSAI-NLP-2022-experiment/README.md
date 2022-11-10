@@ -33,4 +33,4 @@ I uploaded two models to my Microsoft OneDrive and you can download models throu
 [https://1drv.ms/f/s!Ap_PSroRKvH0akzceRq0cJpNK4w](https://1drv.ms/f/s!Ap_PSroRKvH0akzceRq0cJpNK4w)  
 
 When you access above link:  
-The myUDTree model trained with myPOS ver.1 is under the myPOS-ver1-model folder and the model trained with myPOS ver.3 is under the myPOS-ver3-model folder.  
+The myUDTree model trained with myPOS ver.1 is under the "myPOS-ver1-model" folder and the model trained with myPOS ver.3 is under the "myPOS-ver3-model" folder.  
