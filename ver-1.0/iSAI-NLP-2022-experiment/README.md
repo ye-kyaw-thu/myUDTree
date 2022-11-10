@@ -12,7 +12,7 @@ iSAI-NLP-2022-experiment/
 │       │   ├── dev.conll
 │       │   └── train.conll
 │       ├── mypos-ver-1_dependency-training_notes.txt
-│       ├── mypos-ver-1-dep-model.model
+│       ├── mypos-ver-1-dep-model
 │       └── mypos-ver-1-dep-model.params
 └── 2_Report-for-jPTDP_myPOS-V3-Model_to-Publish
     └── train_folder
@@ -20,7 +20,7 @@ iSAI-NLP-2022-experiment/
         │   ├── dev.conll
         │   └── train.conll
         ├── mypos-v3_dependency-training_notes.txt
-        ├── mypos-ver-3-dep-model.model
+        ├── mypos-ver-3-dep-model
         └── mypos-ver-3-dep-model.params
 ```
 
