@@ -8,7 +8,11 @@ y
 
 ## Introduction in English
 	
-The myUDTree corpus is a Universal Dependency (UD) Corpus that extends the Myanmar UD Corpus (Hnin Thu Zar Aye et al.,2018) including 11,000 sentences of Dependency Tree Data. The extended myUDTree UD Corpus contains 43,196 sentences in total. Universal Dependencies (UD) Corpus is a type of Corpus that is annotated according to the Grammar Rule of the respective languages with Part-of-Speech, Morphological Features, and Syntactic Dependencies. Before building myUDTree, we built a Dependency Parsing Model, a Joint POS Tagging and Graph-based Dependency Parsing (jPTDP) model, using the existing Myanmar UD corpus in order to parse Raw Data with Dependency Information. After building the jPTDP model, we selected 20,000 Myanmar sentences from our developing parallel corpora (i.e., Myanmar-Chinese and Myanmar-Korean), and 12,000 Myanmar sentences from the ASEN MT Corpus built by NECTEC Research Center in Thailand, and these data are parsed by using our built jPTDP model to obtain dependency-tree data. The parsed data were manually checked and corrected using the CoNLL-U Viewer tool. After that, the revised data and the original Myanmar UD corpus were integrated to obtain the myUDTree corpus which contains 43,169 sentences with dependency information. Fourteen (14) Universal Part-of-Speech tags (i.e., ADJ, ADP, ADV, CCONJ, INTJ, NOUN, NUM, PART, PRON, PROPN, PUNCT, SCONJ, SYM, and VERB) and 14 dependency relations (i.e., acl, advmod, amod, aux, case, compound, dep, iobj, mark, nmod, nsubj, nummod, obj, obl, and punct) are applied in the original version of Myanmar UD Corpus, and CoNLL-U format is used as a dependency-tree data format. The same number of Universal Part-of-Speech tags and Dependency Relations were also applied in our extended myUDTree corpus. The following dependency relations are the most primarily utilized in Myanmar Dependency Structure.
+The myUDTree corpus is a Universal Dependency (UD) Corpus that extends the Myanmar UD Corpus (Hnin Thu Zar Aye et al.,2018) including 11,000 sentences of Dependency Tree Data. The extended myUDTree UD Corpus contains 43,196 sentences in total.  
+
+Universal Dependencies (UD) Corpus is a type of Corpus that is annotated according to the Grammar Rule of the respective languages with Part-of-Speech, Morphological Features, and Syntactic Dependencies. Before building myUDTree, we built a Dependency Parsing Model, a Joint POS Tagging and Graph-based Dependency Parsing (jPTDP) model, using the existing Myanmar UD corpus in order to parse Raw Data with Dependency Information. After building the jPTDP model, we selected 20,000 Myanmar sentences from our developing parallel corpora (i.e., Myanmar-Chinese and Myanmar-Korean), and 12,000 Myanmar sentences from the ASEN MT Corpus built by NECTEC Research Center in Thailand, and these data are parsed by using our built jPTDP model to obtain dependency-tree data.  
+
+The parsed data were manually checked and corrected using the CoNLL-U Viewer tool. After that, the revised data and the original Myanmar UD corpus were integrated to obtain the myUDTree corpus which contains 43,169 sentences with dependency information. Fourteen (14) Universal Part-of-Speech tags (i.e., ADJ, ADP, ADV, CCONJ, INTJ, NOUN, NUM, PART, PRON, PROPN, PUNCT, SCONJ, SYM, and VERB) and 14 dependency relations (i.e., acl, advmod, amod, aux, case, compound, dep, iobj, mark, nmod, nsubj, nummod, obj, obl, and punct) are applied in the original version of Myanmar UD Corpus, and CoNLL-U format is used as a dependency-tree data format. The same number of Universal Part-of-Speech tags and Dependency Relations were also applied in our extended myUDTree corpus. The following dependency relations are the most primarily utilized in Myanmar Dependency Structure.
   
 1.	root (root) 
 2.	acl (clausal modifier of noun) 
@@ -23,9 +27,9 @@ The myUDTree corpus is a Universal Dependency (UD) Corpus that extends the Myanm
 
 ----------
 
-myUDTree ရဲ့ Corpus Information ကတော့ အောက်ပါအတိုင်းဖြစ်ပါတယ်။
+The compilation of the myUDTree corpus is as follows:  
 
-Table 1 Corpus information of myUDTree  
+Table 1 Corpus information of the myUDTree (version 1.0)  
 
 |Unit|myPOS (ver. 1.0)|Ext-1: my-zh|	Ext-2: my-ko|	Ext-3: ASEAN-MT (my)| myUDTree|
 |:------------- |--------:| -----:|-----:|-----:|-----:|
