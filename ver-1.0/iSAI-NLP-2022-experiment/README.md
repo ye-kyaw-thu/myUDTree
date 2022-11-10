@@ -2,6 +2,8 @@
 
 ## Folder Structure
 
+Some information of how we did our UDTree parsing experiment. The folder structure is as follows:  
+
 ```
 iSAI-NLP-2022-experiment/
 ├── 1_Report-for-jPTDP_myPOS-V1-Model_to-Publish
@@ -21,4 +23,6 @@ iSAI-NLP-2022-experiment/
         ├── mypos-ver-3-dep-model.model
         └── mypos-ver-3-dep-model.params
 ```
+
+Please note, we just share the training note file, model parameters file and the trained model.  
 
