@@ -26,3 +26,9 @@ iSAI-NLP-2022-experiment/
 
 Please note, we just share the training note file, model parameters file and the trained model.  
 
+## myUDTree Models
+
+I uploaded two models to my Microsoft OneDrive and you can download models through following link: 
+
+[https://1drv.ms/f/s!Ap_PSroRKvH0akzceRq0cJpNK4w](https://1drv.ms/f/s!Ap_PSroRKvH0akzceRq0cJpNK4w)  
+
