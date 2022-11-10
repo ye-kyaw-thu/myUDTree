@@ -1,7 +1,7 @@
 # myUDTree
 
-Universal Dependency Tree for Myanmar Language
-We plan to announce/release soon ...  
+Universal Dependency Tree for Myanmar Language  
+We plan to announce/release soon ...   
 
 y  
 10 Nov 2022  
