@@ -8,7 +8,7 @@ y
 
 ## Introduction in English
 	
-The myUDTree corpus is a Universal Dependency (UD) Corpus that extends the Myanmar UD Corpus (Hnin Thu Zar Aye et al.,2018) including 11,000 sentences of Dependency Tree Data. The extended myUDTree UD Corpus contains 43,196 sentences in total.  
+The myUDTree corpus is a Universal Dependency (UD) Corpus that extends the Myanmar UD Corpus (Hnin Thu Zar Aye et al., 2018) including 11,000 sentences of Dependency Tree Data. The extended myUDTree UD Corpus contains 43,196 sentences in total.  
 
 Universal Dependencies (UD) Corpus is a type of Corpus that is annotated according to the Grammar Rule of the respective languages with Part-of-Speech, Morphological Features, and Syntactic Dependencies. Before building myUDTree, we built a Dependency Parsing Model, a Joint POS Tagging and Graph-based Dependency Parsing (jPTDP) model, using the existing Myanmar UD corpus in order to parse Raw Data with Dependency Information. After building the jPTDP model, we selected 20,000 Myanmar sentences from our developing parallel corpora (i.e., Myanmar-Chinese and Myanmar-Korean), and 12,000 Myanmar sentences from the ASEN MT Corpus built by NECTEC Research Center in Thailand, and these data are parsed by using our built jPTDP model to obtain dependency-tree data.  
 
@@ -29,7 +29,7 @@ The parsed data were manually checked and corrected using the CoNLL-U Viewer too
 
 The compilation of the myUDTree corpus is as follows:  
 
-Table 1 Corpus information of the myUDTree (version 1.0)  
+Table 1. Corpus information of the myUDTree (version 1.0)  
 
 |Unit|myPOS (ver. 1.0)|Ext-1: my-zh|	Ext-2: my-ko|	Ext-3: ASEAN-MT (my)| myUDTree|
 |:------------- |--------:| -----:|-----:|-----:|-----:|
@@ -40,7 +40,7 @@ Table 1 Corpus information of the myUDTree (version 1.0)
 
 ## မိတ်ဆက် (Intoduction in Myanmar Language)
 
-myUDTree corpus ဟာ ဆိုရင် Author Hnin Thu Zar Aye et al. (2018) တည်ဆောက်ခဲ့တဲ့ စာကြောင်းရေ ၁၁,၀၀၀ ကို Dependency Tree Data ဖြင့် ဖွဲ့စည်းထားသော Myanmar Universal Dependency (UD) Corpus ကို Extend လုပ်ထားတဲ့ UD Corpus တစ်ခု ဖြစ်ပါတယ်။ Extend လုပ်ထားတဲ့ Myanmar UD Corpus မှာဆိုရင် ဒေတာ စုစုပေါင်းအရေအတွက်အားဖြင့် ၄၃,၁၉၆ ပါဝင်ပါတယ်။ Universal Dependencies (UD) Corpusဆိုသည်မှာ Part-of-Speech ၊ Mophological Features များ နှင့် Syntatic Dependencies များဖြင့် သက်ဆိုင်ရာ ဘာသာစကားများရဲ့ Grammar Rule အရ Annotated လုပ်ထားတဲ့ Corpus အမျိုးအစားဖြစ်ပါတယ်။ myUDTree ကို မတည်ဆောက်ခင်မှာ Dependency Information များဖြင့် Raw Data များကို Parsed လုပ်နိုင်ရန်အတွက် မူလရှိပြီးသား Myanmar UD corpus အသုံးပြု၍ Dependnecy Parsing Model တစ်ခုဖြစ်တဲ့ Joint POS Tagging and Graph-based Dependency Parsing (jPTDP) မော်ဒယ် ကို တည်ဆောက်ခဲ့ပါတယ်။ 
+myUDTree corpus ဟာ ဆိုရင် (Hnin Thu Zar Aye et al., 2018) တည်ဆောက်ခဲ့တဲ့ Universal Dependency Tree Data စာကြောင်းရေ ၁၁,၀၀၀ Corpus ကို အခြေခံပြီး graphical model ဆောက် parsing လုပ်ပြီး ဒေတာကို သုံးဆကျော် တိုး extend လုပ်ထားတဲ့ UDTree Corpus အသစ် ဖြစ်ပါတယ်။ Myanmar UDTree Corpus ရဲ့ version 1.0 မှာဆိုရင် စာကြောင်း အရေအတွက်စုစုပေါင်း ၄၃,၁၉၆ ပါဝင်ပါတယ်။ Universal Dependencies (UD) Corpus ဆိုသည်မှာ Part-of-Speech ၊ Mophological Features များ နှင့် Syntatic Dependencies များဖြင့် သက်ဆိုင်ရာ ဘာသာစကားများရဲ့ Grammar Rule အရ Annotated လုပ်ထားတဲ့ Corpus အမျိုးအစားဖြစ်ပါတယ်။ myUDTree ကို မတည်ဆောက်ခင်မှာ Dependency Information များဖြင့် Raw Data များကို Parsed လုပ်နိုင်ရန်အတွက် မူလရှိပြီးသား Myanmar UD corpus အသုံးပြု၍ Dependnecy Parsing Model တစ်ခုဖြစ်တဲ့ Joint POS Tagging and Graph-based Dependency Parsing (jPTDP) မော်ဒယ် ကို တည်ဆောက်ခဲ့ပါတယ်။ 
 
 jPTDP မော်ဒယ်ကို တည်ဆောက်ပြီးတဲ့နောက်မှာ လက်ရှိမှာ ပြင်ဆင်နေသာ Parallel Corpora ( i.e. Myanmar-Chinese and Myanmar-Korean) မှ Myanmar Raw Dataစာကြောင်းရေ ၂၀,၀၀၀ နှင့် ထိုင်းနိုင်ငံ NECTEC Research Centerမှ တည်ဆောက်ထားသော ASEN MT Corpus မှ Myanmar Raw Dataစာကြောင်းရေ ၁၂,၀၀၀ တို့ကို jPTDP မော်ဒယ်ကို အသုံးပြု၍ Dependency Tree Data များရရှိရန်အတွက် Raw Data များကို Parsed လုပ်ခဲ့ပါတယ်။ Parsed လုပ်ထားသော ဒေတာများကို CoNLL-U Viewer tool ကို အသုံးပြုပြီး manual အားဖြင့် စစ်ဆေးပြီးပြင်ဆင်ထားပါတယ်။ အဲ့ဒီနောက်မှာ စစ်ဆေးပြင်ဆင်ထားသော Dependency Tree Data များနှင့် မူလရှိပြီးသား Myanmar UD Corpusတို့ကို ပေါင်းစပ်ထားပြီး စာကြောင်းရေ အရေအတွက် ၄၃,၁၆၉ နှင့် Dependency Information များ ပါဝင်သော myUDTree Corpus ကို ဖွဲ့စည်းထားပါတယ်။
 
@@ -64,7 +64,7 @@ Myanmar Dependency Structure မှာ အများဆုံး အသုံ�
 
 myUDTree Corpus နှင့် Original Myanmar UD Corpus နှစ်ခုကို အသုံးပြုပြီး တည်ဆောက်ခဲ့တဲ့ Dependency Parsing Models (i.e., jPTDT and UniParse) တွေရဲ့  Accuracies ကို အောက်ပါ Table တွင် ပြထားပါတယ်။
 
-Table 2 Comparison of accuracy values between dependency parsing models  
+Table 2. Comparison of accuracy values between dependency parsing models  
 
 |Model|UAS <br/>(myPOS ver.1)|LAS <br/>(myPOS ver.1)|UAS <br/>(myPOS ver.3)|LAS <br/> (myPOS ver.3)|
 |:----|--------:| -----:|-----:|-----:|
