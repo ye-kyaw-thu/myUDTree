@@ -9,7 +9,7 @@ y
 
 ## Introduction
 	
-The myUDTree corpus is a Universal Dependency (UD) Corpus that extends the Myanmar UD Corpus (Hnin Thu Zar Aye et al., 2018) including 11,000 sentences of Dependency Tree Data. The extended myUDTree Corpus contains 43,196 sentences in total.  
+The myUDTree corpus is a Universal Dependency (UD) Corpus that extends previous work of the Myanmar UD parsing (Hnin Thu Zar Aye et al., 2018), including 11,000 sentences of Dependency Tree Data. The extended myUDTree Corpus contains 43,196 sentences in total.  
 
 Universal Dependencies (UD) Corpus is a type of Corpus that is annotated according to the Grammar Rule of the respective languages with Part-of-Speech, Morphological Features, and Syntactic Dependencies. Before building myUDTree, we built a Dependency Parsing Model, a Joint POS Tagging and Graph-based Dependency Parsing (jPTDP) model, using the existing Myanmar UD corpus in order to parse Raw Data with Dependency Information. After building the jPTDP model, we selected 20,000 Myanmar sentences from our developing parallel corpora (i.e., Myanmar-Chinese and Myanmar-Korean), and 12,000 Myanmar sentences from the ASEN MT Corpus built by NECTEC Research Center in Thailand, and these data are parsed by using our built jPTDP model to obtain dependency-tree data.  
 
