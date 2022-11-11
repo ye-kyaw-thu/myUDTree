@@ -6,7 +6,7 @@ We plan to announce/release soon ...
 y  
 10 Nov 2022  
 
-## Introduction in English
+## Introduction
 	
 The myUDTree corpus is a Universal Dependency (UD) Corpus that extends the Myanmar UD Corpus (Hnin Thu Zar Aye et al., 2018) including 11,000 sentences of Dependency Tree Data. The extended myUDTree Corpus contains 43,196 sentences in total.  
 
