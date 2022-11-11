@@ -135,17 +135,14 @@ Output:
 
 Input:  
 ```
-1	ကိုရီးယား	_	PROPN	_	_	4	obl	_	_
-2	−	_	PUNCT	_	_	1	punct	_	_
-3	မြန်မာ	_	PROPN	_	_	4	compound	_	_
-4	အဘိဓါန်	_	NOUN	_	_	7	compound	_	_
-5	တစ်	_	NUM	_	_	4	nummod	_	_
-6	အုပ်	_	PART	_	_	5	case	_	_
-7	ဝယ်	_	VERB	_	_	9	acl	_	_
-8	မ	_	PART	_	_	9	case	_	_
-9	လို့	_	VERB	_	_	0	root	_	_
-10	ပါ	_	PART	_	_	9	mark	_	_
-11	။	_	PUNCT	_	_	9	punct	_	_
+1	ထမင်း	_	NOUN	_	_	4	obl	_	_
+2	ကို	_	ADP	_	_	1	case	_	_
+3	နည်းနည်း	_	ADV	_	_	4	advmod	_	_
+4	ရ	_	VERB	_	_	0	root	_	_
+5	နိုင်	_	PART	_	_	4	mark	_	_
+6	ပါ	_	PART	_	_	4	case	_	_
+7	သလား	_	PART	_	_	4	mark	_	_
+8	။	_	PUNCT	_	_	4	punct	_	_
 ```
 
 Output:  
