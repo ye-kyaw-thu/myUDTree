@@ -113,6 +113,15 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 9	။	_	PUNCT	_	_	6	punct	_	_
 ```
 
+<p align="center">
+<img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/myUDTree-eg-sentence2.png" alt="dependency tree for example sentence no. 1" width="800"/>  
+</p>  
+<div align="center">
+  Fig.2 Dependency tree for the example sentence no. 2: "ချစ်မေတ္တာ သင်္ကေတ အနေနဲ့ နှင်းဆီပန်း ကို ပို့ပေး ခဲ့ တယ် ။"  
+</div> 
+
+<br />
+
 ```
 1	ကိုရီးယား	_	PROPN	_	_	4	obl	_	_
 2	−	_	PUNCT	_	_	1	punct	_	_
