@@ -47,9 +47,9 @@ Universal Dependencies (UD) Corpus ဆိုသည်မှာ Part-of-Speech �
 
 jPTDP မော်ဒယ်ကို တည်ဆောက်ပြီးတဲ့နောက်မှာ လက်ရှိမှာ machine translation သုတေသနအတွက် ပြင်ဆင်နေတဲ့ Parallel Corpora (i.e. Myanmar-Chinese and Myanmar-Korean) မှ Myanmar Raw Data စာကြောင်းရေ ၂၀,၀၀၀ နှင့် ထိုင်းနိုင်ငံ NECTEC Research Centerမှ တည်ဆောက်ထားသော ASEN MT Corpus မှ Myanmar Raw Data စာကြောင်းရေ ၁၂,၀၀၀ တို့ကို jPTDP မော်ဒယ်ကို အသုံးပြု၍ Dependency Tree Data များရရှိရန်အတွက် Raw Data များကို Parsed လုပ်ခဲ့ပါတယ်။ Parsed လုပ်ထားသော ဒေတာများကို CoNLL-U Viewer tool ကို အသုံးပြုပြီး manual အားဖြင့် အချိန်ယူ စစ်ဆေးပြီးပြင်ဆင်ထားပါတယ်။ အဲ့ဒီနောက်မှာ စစ်ဆေးပြင်ဆင်ထားသော dependency tree data များနှင့် မူလရှိပြီးသား Myanmar UD Corpus ကို parse လုပ်ထားတဲ့ output စာကြောင်းတွေနဲ့ပေါင်းလိုက်ပြီး စာကြောင်းရေ အရေအတွက် ၄၃,၁၆၉ နှင့် dependency tree information များ ပါဝင်သော myUDTree Corpus (version 1.0) ကို ဖွဲ့စည်းထားပါတယ်။
 
-Myanmar UDTree Corpus (version 1.0) မှာ 14 Universal Part-of-Speech tags (i.e., ADJ, ADP, ADV, CCONJ, INTJ, NOUN, NUM, PART, PRON, PROPN, PUNCT, SCONJ, SYM, and VERB) နှင့် 14 Dependency Relations (i.e., acl, advmod, amod, aux, case, compound, dep, iobj, mark, nmod, nsubj, nummod, obj, obl, and punct) တို့ကို apply လုပ်ထားပြီး Dependency Tree Data Format အနေဖြင့် CoNLL-U Format ကို အသုံးပြုထားပါတယ်။  
+Myanmar UDTree Corpus (version 1.0) မှာ 14 Universal Part-of-Speech tags (i.e., ADJ, ADP, ADV, CCONJ, INTJ, NOUN, NUM, PART, PRON, PROPN, PUNCT, SCONJ, SYM, and VERB) နှင့် 14 dependency relations (i.e., acl, advmod, amod, aux, case, compound, dep, iobj, mark, nmod, nsubj, nummod, obj, obl, and punct) တို့ကို apply လုပ်ထားပြီး dependency tree data format အနေဖြင့် CoNLL-U format ကို အသုံးပြုထားပါတယ်။  
 
-Myanmar Dependency Structure မှာ အများဆုံး အသုံးပြုတဲ့ Dependency Relations တွေကတော့ အောက်ဖော်ပြပါ Dependency Relationsများ ဖြစ်ကြပါတယ်။
+Myanmar dependency structure မှာ အများဆုံး အသုံးပြုတဲ့ dependency relations တွေကတော့ အောက်ဖော်ပြပါ relations များဖြစ်ကြပါတယ်။  
 
 1.	root (root) 
 2.	acl (clausal modifier of noun) 
@@ -65,7 +65,7 @@ Myanmar Dependency Structure မှာ အများဆုံး အသုံ�
 ------------
 
 
-myUDTree Corpus နှင့် Original Myanmar UD Corpus နှစ်ခုကို အသုံးပြုပြီး တည်ဆောက်ခဲ့တဲ့ Dependency Parsing Models (i.e., [jPTDP](https://github.com/datquocnguyen/jPTDP) and [UniParse](https://github.com/danielvarab/uniparse)) တွေရဲ့  Accuracies ကို အောက်ပါ Table 2 တွင် ပြထားပါတယ်။
+myUDTree Corpus နှင့် Original Myanmar UD Corpus နှစ်ခုကို အသုံးပြုပြီး တည်ဆောက်ခဲ့တဲ့ dependency parsing models (i.e., [jPTDP](https://github.com/datquocnguyen/jPTDP) and [UniParse](https://github.com/danielvarab/uniparse)) တွေရဲ့ accuracies ကို အောက်ပါ Table 2 မှာ ဖော်ပြထားပါတယ်။
 
 Table 2. Comparison of accuracy values between dependency parsing models  
 
