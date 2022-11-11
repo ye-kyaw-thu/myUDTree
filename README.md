@@ -81,9 +81,75 @@ Note: jPTDT Model က Raw Text Data ကို Parsed လုပ်ပေးနိ
 CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံးပြုပြီး dependency tree structure တွေကို ကြည့်တာ ပုံတွေကို save လုပ်တာ လုပ်နိုင်ပါတယ်။ CoNLL-U Viewer website မှာ CoNLL-U Formart ဖြင့် သိမ်းဆည်းထားတဲ့ text file ကို upload လုပ်ပေးလိုက်ယုံပါပဲ။  
 
 
-ဥပမာ အနေနဲ့ myUDTree (version 1.0) ထဲမှာ ပါဝင်တဲ့ အောက်ပါ စာကြောင်းသုံးကြောင်းကို CoNLL-U Viewer ကို upload လုပ်လိုက်ရင် စာကြောင်း တစ်ကြောင်းချင်းစီအတွက် dependency relationship ပုံတွေကို output အနေနဲ့ ရလာပါလိမ့်မယ်။  
+ဥပမာ အနေနဲ့ myUDTree (version 1.0) ထဲမှာ ပါဝင်တဲ့ အောက်ပါ စာကြောင်းငါးကြောင်းကို CoNLL-U Viewer ကို upload လုပ်လိုက်ရင် စာကြောင်း တစ်ကြောင်းချင်းစီအတွက် dependency relationship ပုံတွေကို output အနေနဲ့ ရလာပါလိမ့်မယ်။  
 
+```
+1	ကျသင့်	_	VERB	_	_	2	acl	_	_
+2	ငွေ	_	NOUN	_	_	4	obl	_	_
+3	က	_	ADP	_	_	2	case	_	_
+4	ဘယ်လောက်	_	ADJ	_	_	0	root	_	_
+5	လဲ	_	PART	_	_	4	mark	_	_
+6	။	_	PUNCT	_	_	4	punct	_	_
+```
 
+```
+1	ချစ်မေတ္တာ	_	NOUN	_	_	2	compound	_	_
+2	သင်္ကေတ	_	NOUN	_	_	6	obl	_	_
+3	အနေနဲ့	_	PART	_	_	2	case	_	_
+4	နှင်းဆီပန်း	_	NOUN	_	_	6	obl	_	_
+5	ကို	_	ADP	_	_	4	case	_	_
+6	ပို့ပေး	_	VERB	_	_	0	root	_	_
+7	ခဲ့	_	PART	_	_	6	mark	_	_
+8	တယ်	_	ADP	_	_	6	case	_	_
+9	။	_	PUNCT	_	_	6	punct	_	_
+```
+
+```
+1	ကိုရီးယား	_	PROPN	_	_	4	obl	_	_
+2	−	_	PUNCT	_	_	1	punct	_	_
+3	မြန်မာ	_	PROPN	_	_	4	compound	_	_
+4	အဘိဓါန်	_	NOUN	_	_	7	compound	_	_
+5	တစ်	_	NUM	_	_	4	nummod	_	_
+6	အုပ်	_	PART	_	_	5	case	_	_
+7	ဝယ်	_	VERB	_	_	9	acl	_	_
+8	မ	_	PART	_	_	9	case	_	_
+9	လို့	_	VERB	_	_	0	root	_	_
+10	ပါ	_	PART	_	_	9	mark	_	_
+11	။	_	PUNCT	_	_	9	punct	_	_
+```
+
+```
+1	Country	_	NOUN	_	_	2	compound	_	_
+2	code	_	NOUN	_	_	6	obl	_	_
+3	ကို	_	ADP	_	_	2	case	_	_
+4	လည်း	_	PART	_	_	2	case	_	_
+5	တပါတည်း	_	ADV	_	_	6	advmod	_	_
+6	တွဲထည့်	_	VERB	_	_	0	root	_	_
+7	ပေး	_	PART	_	_	6	mark	_	_
+8	ထား	_	PART	_	_	6	case	_	_
+9	ပါ	_	PART	_	_	6	mark	_	_
+10	သည်	_	ADP	_	_	6	case	_	_
+11	။	_	PUNCT	_	_	6	punct	_	_
+```
+
+```
+1	မက်ဆင်ဂျာ	_	PROPN	_	_	7	compound	_	_
+2	အာကာသယာဉ်	_	NOUN	_	_	1	obl	_	_
+3	သည်	_	ADP	_	_	2	case	_	_
+4	ဂြိုဟ်	_	NOUN	_	_	5	compound	_	_
+5	အနီး	_	NOUN	_	_	7	obl	_	_
+6	မှ	_	ADP	_	_	5	case	_	_
+7	ဖြတ်	_	VERB	_	_	11	acl	_	_
+8	၍	_	SCONJ	_	_	7	mark	_	_
+9	တစ်	_	NUM	_	_	11	nummod	_	_
+10	ကြိမ်	_	PART	_	_	9	case	_	_
+11	ပျံသန်း	_	VERB	_	_	14	acl	_	_
+12	ခဲ့	_	PART	_	_	11	mark	_	_
+13	ပြီး	_	PART	_	_	11	case	_	_
+14	ဖြစ်	_	VERB	_	_	0	root	_	_
+15	သည်	_	ADP	_	_	14	case	_	_
+16	။	_	PUNCT	_	_	14	punct	_	_
+```
 
 ## To Do
 
