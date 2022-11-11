@@ -228,6 +228,7 @@ CoNLL-U Viewer tool ကို သုံးပြီးတော့ မြန်�
 
 - Recheck myUDTree ver.1  
 - Active learning and Manual UDTree tagging for myUDTree corpus extension  
+- DTree parsing experiments for Myanmar language
 
 ## Citation
 
