@@ -439,6 +439,9 @@ https://github.com/datquocnguyen/jPTDP?fbclid=IwAR2xUeHdT4tGMD0vQ7nor7aXjfuDtaFa
 8. A framework for graph-based dependency parsing:  
 https://github.com/danielvarab/uniparse  
 
+9. DyNet Framework:  
+https://dynet.readthedocs.io/en/latest/python.html
+
 
 ## To Do
 
