@@ -32,7 +32,7 @@ The compilation of the myUDTree corpus is as follows:
 
 Table 1. Corpus information of the myUDTree (version 1.0)  
 
-|Unit|myPOS (ver. 1.0)|Ext-1: my-zh|	Ext-2: my-ko|	Ext-3: ASEAN-MT (my)| myUDTree|
+|Unit|myPOS (ver. 1.0)|Ext-1: my-zh|	Ext-2: my-ko|	Ext-3: ASEAN-MT (my)| myUDTree (ver. 1.0)|
 |:------------- |--------:| -----:|-----:|-----:|-----:|
 |Sentences	|11,000	|10,000	|10,052	|12,144	|43,196|
 |Words	| 239,598 | 103,909 | 106,864 | 114,134 | 564,505|
