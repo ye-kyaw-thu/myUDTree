@@ -233,6 +233,10 @@ CoNLL-U Viewer tool ကို သုံးပြီးတော့ မြန်�
 
 <br />
 
+## Parsing Raw Myanmar Sentences with jPTDP Models
+
+ရှဲလုပ်ထားတဲ့ jPTDP မော်ဒယ်တွေကို သုံးပြီးတော့ raw မြန်မာစာ စာကြောင်း တွေကို ဘယ်လို UDTree parsing လုပ်ရသလဲ ဆိုတာကို အလွယ် ရှင်းပြရရင် ...   
+
 
 ## To Do
 
