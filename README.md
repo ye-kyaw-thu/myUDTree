@@ -65,7 +65,7 @@ Myanmar Dependency Structure မှာ အများဆုံး အသုံ�
 ------------
 
 
-myUDTree Corpus နှင့် Original Myanmar UD Corpus နှစ်ခုကို အသုံးပြုပြီး တည်ဆောက်ခဲ့တဲ့ Dependency Parsing Models (i.e., jPTDT and UniParse) တွေရဲ့  Accuracies ကို အောက်ပါ Table 2 တွင် ပြထားပါတယ်။
+myUDTree Corpus နှင့် Original Myanmar UD Corpus နှစ်ခုကို အသုံးပြုပြီး တည်ဆောက်ခဲ့တဲ့ Dependency Parsing Models (i.e., jPTDP and UniParse) တွေရဲ့  Accuracies ကို အောက်ပါ Table 2 တွင် ပြထားပါတယ်။
 
 Table 2. Comparison of accuracy values between dependency parsing models  
 
@@ -75,7 +75,7 @@ Table 2. Comparison of accuracy values between dependency parsing models
 |UniParse| 85.67%| 82.72%| 86.27%| 83.36%|
 
 
-Note: jPTDT Model က Raw Text Data ကို Parsed လုပ်ပေးနိုင်သော်လည်း UniParse Model ဟာဆိုရင်ဖြင့် Raw Text Data များကို Parsed မလုပ်ပေးနိုင်ပါ။ 
+Note: jPTDP Model က Raw Text Data ကို Parsed လုပ်ပေးနိုင်သော်လည်း UniParse Model ဟာဆိုရင်ဖြင့် Raw Text Data များကို Parsed မလုပ်ပေးနိုင်ပါ။ 
 
 ## Introduction to CoNLL-U Viewer tool
 
