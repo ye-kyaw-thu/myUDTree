@@ -83,6 +83,8 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 
 ဥပမာ အနေနဲ့ myUDTree (version 1.0) ထဲမှာ ပါဝင်တဲ့ အောက်ပါ စာကြောင်းငါးကြောင်းကို CoNLL-U Viewer ကို upload လုပ်လိုက်ရင် စာကြောင်း တစ်ကြောင်းချင်းစီအတွက် dependency relationship ပုံတွေကို output အနေနဲ့ ရလာပါလိမ့်မယ်။  
 
+### Example sentence no.1
+
 ```
 1	ကျသင့်	_	VERB	_	_	2	acl	_	_
 2	ငွေ	_	NOUN	_	_	4	obl	_	_
@@ -100,6 +102,8 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 </div> 
 
 <br />
+
+### Example sentence no.2
 
 ```
 1	ချစ်မေတ္တာ	_	NOUN	_	_	2	compound	_	_
@@ -121,6 +125,8 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 </div> 
 
 <br />
+
+### Example sentence no.3
 
 ```
 1	ကိုရီးယား	_	PROPN	_	_	4	obl	_	_
@@ -145,6 +151,8 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 
 <br />
 
+### Example sentence no.4
+
 ```
 1	Country	_	NOUN	_	_	2	compound	_	_
 2	code	_	NOUN	_	_	6	obl	_	_
@@ -167,6 +175,8 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 </div> 
 
 <br />
+
+### Example sentence no.5
 
 ```
 1	မက်ဆင်ဂျာ	_	PROPN	_	_	7	compound	_	_
