@@ -136,6 +136,15 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 11	။	_	PUNCT	_	_	9	punct	_	_
 ```
 
+<p align="center">
+<img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/myUDTree-eg-sentence3.png" alt="dependency tree for example sentence no. 3" width="800"/>  
+</p>  
+<div align="center">
+  Fig.3 Dependency tree for the example sentence no. 3: "ကိုရီးယား - မြန်မာ အဘိဓါန် တစ် အုပ် ဝယ် မ လို့ ပါ ။"  
+</div> 
+
+<br />
+
 ```
 1	Country	_	NOUN	_	_	2	compound	_	_
 2	code	_	NOUN	_	_	6	obl	_	_
@@ -149,6 +158,15 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 10	သည်	_	ADP	_	_	6	case	_	_
 11	။	_	PUNCT	_	_	6	punct	_	_
 ```
+
+<p align="center">
+<img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/myUDTree-eg-sentence4.png" alt="dependency tree for example sentence no. 4" width="800"/>  
+</p>  
+<div align="center">
+  Fig.4 Dependency tree for the example sentence no. 4: "Country code ကို လည်း တပါတည်း တွဲထည့် ပေး ထား ပါ သည် ။"  
+</div> 
+
+<br />
 
 ```
 1	မက်ဆင်ဂျာ	_	PROPN	_	_	7	compound	_	_
@@ -168,6 +186,15 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 15	သည်	_	ADP	_	_	14	case	_	_
 16	။	_	PUNCT	_	_	14	punct	_	_
 ```
+
+<p align="center">
+<img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/myUDTree-eg-sentence5.png" alt="dependency tree for example sentence no. 5" width="800"/>  
+</p>  
+<div align="center">
+  Fig.5 Dependency tree for the example sentence no. 5: "မက်ဆင်ဂျာ အာကာသယာဉ် သည် ဂြိုဟ် အနီး မှ ဖြတ် ၍ တစ် ကြိမ် ပျံသန်း ခဲ့ ပြီး ဖြစ် သည် ။"  
+</div> 
+
+<br />
 
 ## To Do
 
