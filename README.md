@@ -236,6 +236,8 @@ CoNLL-U Viewer tool ကို သုံးပြီးတော့ မြန်�
 
 ## Clone jPTDP
 
+ပထမဆုံး jPTDP repository ကို ကိုယ့်စက်ထဲကို clone (i.e. download) လုပ်ရအောင် ...  
+
 ```
 (jPTDP-cpu) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test$ git clone https://github.com/bryant1410/jPTDP
 Cloning into 'jPTDP'...
@@ -244,13 +246,20 @@ remote: Total 124 (delta 0), reused 0 (delta 0), pack-reused 124
 Receiving objects: 100% (124/124), 59.34 KiB | 161.00 KiB/s, done.
 Resolving deltas: 100% (70/70), done.
 (jPTDP-cpu) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test$
+```
 
+clone လုပ်ထားတဲ့ folder ထဲကို ဝင်ကြည့်ပြီး အသစ်ရောက်လာတဲ့ python code စတာတွေကို confirm လုပ်ကြည့်ရအောင် ...  
+
+```
 (jPTDP-cpu) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ ls
 decoder.py  jPTDP.py  learner.py  License.txt  mnnl.py  README.md  sample  utils  utils.py
 (jPTDP-cpu) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$
 ```
 
 ## Installation of DyNet
+
+မော်ဒယ် အသစ်ကို Training လုပ်ဖို့ ရှိပြီးသား မော်ဒယ်နဲ့ UDTree parsing လုပ်ဖို့အတွက်က DyNet framework လိုအပ်တယ်။  
+အဲဒါကြောင့် DyNet Python library ကို pip နဲ့ install လုပ်ရအောင်။  
 
 ```
 (py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ pip install dynet
@@ -269,6 +278,8 @@ Successfully installed cython-0.29.32 dynet-2.1.2
 
 ## Check/Install Future
 
+Future ဆိုတဲ့ Python package လည်း လိုအပ်လို့ installation လုပ်ရလိမ့်မယ်။  
+
 ```
 (py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ pip install future
 DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
@@ -277,6 +288,8 @@ Requirement already satisfied: future in /home/ye/tool/anaconda3/envs/py2.7/lib/
 ```
 
 ## Prepare Test File
+
+UDTree parsing ကို ဥပမာအဖြစ် ပြဖို့အတွက် raw test file တစ်ဖိုင်ကို prepare လုပ်ခဲ့တယ်။ တကယ်ကတော့ corpus ထဲကနေပဲ စာကြောင်း သုံးကြောင်းကို ဆွဲထုတ်လာတာပါ။    
 
 ```
 (py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ cat raw.txt
@@ -287,6 +300,8 @@ Requirement already satisfied: future in /home/ye/tool/anaconda3/envs/py2.7/lib/
 
 ## Converting Raw into CONLLU Format
 
+jPTDP model ကို prediction or UDTree parsing လုပ်ခိုင်းဖို့က CONLLU format ကို ပြောင်းပေးဖို့ လိုအပ်တယ်။ အဲဒီအတွက်က utils/ ဆိုတဲ့ folder အောက်က converter.py ကို သုံးပြီး format ပြောင်းခိုင်းလို့ ရတယ်။  
+
 ```
 (py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ python ./utils/converter.py ./raw.txt 
 (py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ ls raw.txt.conllu 
@@ -294,6 +309,8 @@ raw.txt.conllu
 ```
 
 ## Check the Converted Output File
+
+CONLLU format အဖြစ် ပြောင်းပြီးသား output ဖိုင်က အောက်ပါအတိုင်းပါ။ ကျွန်တော်တို့ကတော့ column ဆယ်ခု ရှိတယ်ဆိုပြီး မှတ်ထားတယ်။    
 
 ```
 (py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ cat raw.txt.conllu 
@@ -331,6 +348,8 @@ raw.txt.conllu
 
 ## Parsing on CPU
 
+DyNet က CPU ပေါ်မှာလည်း အလုပ်လုပ်ပေးတာကြောင့် ရှဲလုပ်ပေးထားတဲ့ myUDTree version 1.0 မော်ဒယ် (နာမည်ကတော့ mypos-ver-3-dep-model) ကို သုံးပြီး parsing လုပ်ခိုင်းကြည့်ရအောင်။  
+
 ```
 (py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ time python jPTDP.py --predict --model ../model/mypos-ver-3-dep-model --params ../model/mypos-ver-3-dep-model.params --test ./raw.txt.conllu --outdir ./ --output raw.txt.conllu.pred
 [dynet] random seed: 1895699260
@@ -349,6 +368,8 @@ sys	0m0.444s
 ```
 
 ## Check the Parsed Output File
+
+parsing လုပ်ပြီး ထွက်လာတဲ့ ဖိုင်က အောက်ပါအတိုင်းပါ။ POS tagging ရော၊ UDTree relationship ကိုရော tagging လုပ်ပေးထားတာကို မြင်တွေ့ရပါလိမ့်မယ်။    
 
 ```
 (py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ cat ./raw.txt.conllu.pred 
@@ -380,9 +401,7 @@ sys	0m0.444s
 5	ပြောဆို	_	VERB	_	_	0	root	_	_
 6	သည်	_	ADP	_	_	5	case	_	_
 7	။	_	PUNCT	_	_	5	punct	_	_
-
-
-(py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ 
+ 
 ```
 
 
