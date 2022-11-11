@@ -234,7 +234,7 @@ CoNLL-U Viewer tool ကို သုံးပြီးတော့ မြန်�
 
 ရှဲလုပ်ထားတဲ့ jPTDP မော်ဒယ်တွေကို သုံးပြီးတော့ raw မြန်မာစာ စာကြောင်း တွေကို ဘယ်လို UDTree parsing လုပ်ရသလဲ ဆိုတာကို အလွယ် ရှင်းပြရရင် ...   
 
-## Clone jPTDP
+### Clone jPTDP
 
 ပထမဆုံး jPTDP repository ကို ကိုယ့်စက်ထဲကို clone (i.e. download) လုပ်ရအောင် ...  
 
@@ -256,7 +256,7 @@ decoder.py  jPTDP.py  learner.py  License.txt  mnnl.py  README.md  sample  utils
 (jPTDP-cpu) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$
 ```
 
-## Installation of DyNet
+### Installation of DyNet
 
 မော်ဒယ် အသစ်ကို Training လုပ်ဖို့ ရှိပြီးသား မော်ဒယ်နဲ့ UDTree parsing လုပ်ဖို့အတွက်က DyNet framework လိုအပ်တယ်။  
 အဲဒါကြောင့် DyNet Python library ကို pip နဲ့ install လုပ်ရအောင်။  
@@ -276,7 +276,7 @@ Successfully installed cython-0.29.32 dynet-2.1.2
 (py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$
 ```
 
-## Check/Install Future
+### Check/Install Future
 
 Future ဆိုတဲ့ Python package လည်း လိုအပ်လို့ installation လုပ်ရလိမ့်မယ်။  
 
@@ -287,7 +287,7 @@ Requirement already satisfied: future in /home/ye/tool/anaconda3/envs/py2.7/lib/
 (py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$
 ```
 
-## Prepare Test File
+### Prepare Test File
 
 UDTree parsing ကို ဥပမာအဖြစ် ပြဖို့အတွက် raw test file တစ်ဖိုင်ကို prepare လုပ်ခဲ့တယ်။ တကယ်ကတော့ corpus ထဲကနေပဲ စာကြောင်း သုံးကြောင်းကို ဆွဲထုတ်လာတာပါ။    
 
@@ -298,7 +298,7 @@ UDTree parsing ကို ဥပမာအဖြစ် ပြဖို့အတွ
 တူလေး ကို နားဝင်အောင် ဆုံးမ ပြောဆို သည် ။
 ```
 
-## Converting Raw into CONLLU Format
+### Converting Raw into CONLLU Format
 
 jPTDP model ကို prediction or UDTree parsing လုပ်ခိုင်းဖို့က CONLLU format ကို ပြောင်းပေးဖို့ လိုအပ်တယ်။ အဲဒီအတွက်က utils/ ဆိုတဲ့ folder အောက်က converter.py ကို သုံးပြီး format ပြောင်းခိုင်းလို့ ရတယ်။  
 
@@ -308,7 +308,7 @@ jPTDP model ကို prediction or UDTree parsing လုပ်ခိုင်�
 raw.txt.conllu
 ```
 
-## Check the Converted Output File
+### Check the Converted Output File
 
 CONLLU format အဖြစ် ပြောင်းပြီးသား output ဖိုင်က အောက်ပါအတိုင်းပါ။ ကျွန်တော်တို့ကတော့ column ဆယ်ခု ရှိတယ်ဆိုပြီး မှတ်ထားတယ်။    
 
@@ -346,7 +346,7 @@ CONLLU format အဖြစ် ပြောင်းပြီးသား output 
 (py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ 
 ```
 
-## Parsing on CPU
+### Parsing on CPU
 
 DyNet က CPU ပေါ်မှာလည်း အလုပ်လုပ်ပေးတာကြောင့် ရှဲလုပ်ပေးထားတဲ့ myUDTree version 1.0 မော်ဒယ် (နာမည်ကတော့ mypos-ver-3-dep-model) ကို သုံးပြီး parsing လုပ်ခိုင်းကြည့်ရအောင်။  
 
@@ -367,7 +367,7 @@ sys	0m0.444s
 (py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ 
 ```
 
-## Check the Parsed Output File
+### Check the Parsed Output File
 
 parsing လုပ်ပြီး ထွက်လာတဲ့ ဖိုင်က အောက်ပါအတိုင်းပါ။ POS tagging ရော၊ UDTree relationship ကိုရော tagging လုပ်ပေးထားတာကို မြင်တွေ့ရပါလိမ့်မယ်။    
 
@@ -403,7 +403,6 @@ parsing လုပ်ပြီး ထွက်လာတဲ့ ဖိုင်က 
 7	။	_	PUNCT	_	_	5	punct	_	_
  
 ```
-
 
 ## Citation
 
