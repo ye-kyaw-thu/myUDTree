@@ -75,7 +75,7 @@ Table 2. Comparison of accuracy values between dependency parsing models
 |UniParse| 85.67%| 82.72%| 86.27%| 83.36%|
 
 
-Note: jPTDP Model က Raw Text Data ကို Parsed လုပ်ပေးနိုင်သော်လည်း UniParse Model ဟာဆိုရင်ဖြင့် Raw Text Data များကို Parsed မလုပ်ပေးနိုင်ပါ။ အဲဒါကြောင့် ဒီ myUDTree repository မှာ training လုပ်ခဲ့တဲ့ JPTDP မော်ဒယ်နှစ်ခု (တစ်ခုက myPOS ver.1, နောက်တစ်ခုက myPOS ver.3 corpus ရဲ့ စာကြောင်းတွေကို သုံးခဲ့) ကိုပဲ ဆက်လက်လေ့လာချင်သူတွေအတွက် Microsoft OneDrive link ကနေတဆင့် ရှဲလုပ်ပေးထားပါတယ်။  
+Note: jPTDP Model က Raw Text Data ကို Parsed လုပ်ပေးနိုင်သော်လည်း UniParse Model ဟာဆိုရင်ဖြင့် Raw Text Data များကို Parsed မလုပ်ပေးနိုင်ပါ။ အဲဒါကြောင့် ဒီ myUDTree repository မှာ training လုပ်ခဲ့တဲ့ JPTDP မော်ဒယ်နှစ်ခု (တစ်ခုက myPOS ver.1, နောက်တစ်ခုက myPOS ver.3 corpus ရဲ့ စာကြောင်းတွေကို သုံးခဲ့) ကိုပဲ ဆက်လက်လေ့လာချင်သူတွေအတွက် [Microsoft OneDrive link]((https://1drv.ms/f/s!Ap_PSroRKvH0akzceRq0cJpNK4w)) ကနေတဆင့် ရှဲလုပ်ပေးထားပါတယ်။  
 
 ## Introduction to CoNLL-U Viewer tool
 
