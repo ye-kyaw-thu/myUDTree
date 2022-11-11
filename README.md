@@ -76,6 +76,10 @@ Table 2. Comparison of accuracy values between dependency parsing models
 
 Note: jPTDT Model က Raw Text Data ကို Parsed လုပ်ပေးနိုင်သော်လည်း UniParse Model ဟာဆိုရင်ဖြင့် Raw Text Data များကို Parsed မလုပ်ပေးနိုင်ပါ။ 
 
+## To Do
+
+- Recheck myUDTree ver.1  
+- Active learning and Manual UDTree tagging for myUDTree corpus extension  
 
 ## Citation
 
@@ -90,6 +94,10 @@ https://universaldependencies.org/
 
 3. CoNLL-Viewer Tool:  
 https://urd2.let.rug.nl/~kleiweg/conllu/?fbclid=IwAR2Flucow_szmuB63-J2vuqSGiXXtCw8I_OUyHvxd4hZfs0oK0140x5oQtY  
+
+4. Neural network models for joint POS tagging and dependency parsing (CoNLL 2017-2018):  
+https://github.com/datquocnguyen/jPTDP?fbclid=IwAR2xUeHdT4tGMD0vQ7nor7aXjfuDtaFaoNjwgpuz8ye2xd5uG6laAUOCWho
+
 
 
 
