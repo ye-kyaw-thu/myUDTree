@@ -86,6 +86,7 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 
 ### Example sentence no.1
 
+Input:  
 ```
 1	ကျသင့်	_	VERB	_	_	2	acl	_	_
 2	ငွေ	_	NOUN	_	_	4	obl	_	_
@@ -95,6 +96,7 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 6	။	_	PUNCT	_	_	4	punct	_	_
 ```
 
+Output:  
 <p align="center">
 <img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/myUDTree-eg-sentence1.png" alt="dependency tree for example sentence no. 1" width="800"/>  
 </p>  
@@ -106,6 +108,7 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 
 ### Example sentence no.2
 
+Input:  
 ```
 1	ချစ်မေတ္တာ	_	NOUN	_	_	2	compound	_	_
 2	သင်္ကေတ	_	NOUN	_	_	6	obl	_	_
@@ -118,6 +121,7 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 9	။	_	PUNCT	_	_	6	punct	_	_
 ```
 
+Output:  
 <p align="center">
 <img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/myUDTree-eg-sentence2.png" alt="dependency tree for example sentence no. 2" width="800"/>  
 </p>  
@@ -129,6 +133,7 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 
 ### Example sentence no.3
 
+Input:  
 ```
 1	ကိုရီးယား	_	PROPN	_	_	4	obl	_	_
 2	−	_	PUNCT	_	_	1	punct	_	_
@@ -143,6 +148,7 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 11	။	_	PUNCT	_	_	9	punct	_	_
 ```
 
+Output:  
 <p align="center">
 <img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/myUDTree-eg-sentence3.png" alt="dependency tree for example sentence no. 3" width="800"/>  
 </p>  
@@ -154,6 +160,7 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 
 ### Example sentence no.4
 
+Input:  
 ```
 1	Country	_	NOUN	_	_	2	compound	_	_
 2	code	_	NOUN	_	_	6	obl	_	_
@@ -168,6 +175,7 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 11	။	_	PUNCT	_	_	6	punct	_	_
 ```
 
+Output:  
 <p align="center">
 <img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/myUDTree-eg-sentence4.png" alt="dependency tree for example sentence no. 4" width="800"/>  
 </p>  
@@ -179,6 +187,7 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 
 ### Example sentence no.5
 
+Input:  
 ```
 1	မက်ဆင်ဂျာ	_	PROPN	_	_	7	compound	_	_
 2	အာကာသယာဉ်	_	NOUN	_	_	1	obl	_	_
@@ -198,6 +207,7 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 16	။	_	PUNCT	_	_	14	punct	_	_
 ```
 
+Output:  
 <p align="center">
 <img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/myUDTree-eg-sentence5.png" alt="dependency tree for example sentence no. 5" width="800"/>  
 </p>  
