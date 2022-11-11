@@ -1,12 +1,5 @@
 # myUDTree
 
-Universal Dependency Tree for Myanmar Language  
-We plan to announce/release soon ...   
-***Still uploading files and updating the README file ...     
-
-y  
-10 Nov 2022  
-
 ## Introduction
 	
 The myUDTree corpus is a Universal Dependency (UD) Corpus that extends previous work of the Myanmar UD parsing (Hnin Thu Zar Aye et al., 2018), including 11,000 sentences of dependency tree data. The extended myUDTree corpus contains 43,196 sentences in total.  
@@ -427,6 +420,9 @@ $ tree -L 1
 
 **pic** ဖိုလ်ဒါကတော့ အခု ဖတ်နေတဲ့ README ဖိုင်အတွက် ဥပမာအဖြည့် ထည့်ထားတဲ့ UDTree graph ပုံတွေကို သိမ်းထားတဲ့ ဖိုလ်ဒါပါ။  
 
+## Versions Information
+
+On 11 November 2022 we released myUDTree corpus (version 1.0).   
 
 ## Citation
 
