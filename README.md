@@ -1,7 +1,8 @@
 # myUDTree
 
 Universal Dependency Tree for Myanmar Language  
-We plan to announce/release soon ...   
+We plan to announce/release soon ... 
+*** Still uploading files and updating the README file ...   
 
 y  
 10 Nov 2022  
@@ -64,7 +65,7 @@ Myanmar Dependency Structure မှာ အများဆုံး အသုံ�
 ------------
 
 
-myUDTree Corpus နှင့် Original Myanmar UD Corpus နှစ်ခုကို အသုံးပြုပြီး တည်ဆောက်ခဲ့တဲ့ Dependency Parsing Models (i.e., jPTDT and UniParse) တွေရဲ့  Accuracies ကို အောက်ပါ Table တွင် ပြထားပါတယ်။
+myUDTree Corpus နှင့် Original Myanmar UD Corpus နှစ်ခုကို အသုံးပြုပြီး တည်ဆောက်ခဲ့တဲ့ Dependency Parsing Models (i.e., jPTDT and UniParse) တွေရဲ့  Accuracies ကို အောက်ပါ Table 2 တွင် ပြထားပါတယ်။
 
 Table 2. Comparison of accuracy values between dependency parsing models  
 
