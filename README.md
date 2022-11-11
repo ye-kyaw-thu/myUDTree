@@ -298,7 +298,7 @@ UDTree parsing ကို ဥပမာအဖြစ် ပြဖို့အတွ
 တူလေး ကို နားဝင်အောင် ဆုံးမ ပြောဆို သည် ။
 ```
 
-### Converting Raw into CONLLU Format
+### Converting Raw Data into CONLLU Format
 
 jPTDP model ကို prediction or UDTree parsing လုပ်ခိုင်းဖို့က CONLLU format ကို ပြောင်းပေးဖို့ လိုအပ်တယ်။ အဲဒီအတွက်က utils/ ဆိုတဲ့ folder အောက်က converter.py ကို သုံးပြီး format ပြောင်းခိုင်းလို့ ရတယ်။  
 
