@@ -96,7 +96,7 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 <img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/myUDTree-eg-sentence1.png" alt="dependency tree for example sentence no. 1" width="800"/>  
 </p>  
 <div align="center">
-  Fig.1 Dependency tree for the example sentence no. 1: "ကျသင့် ငွေ က ဘယ်လောက် လဲ ။"  
+  Fig.1 Dependency tree for the example sentence no. 1: "ကျသင့်ငွေ က ဘယ်လောက်လဲ။"  
 </div> 
 
 <br />
@@ -117,7 +117,7 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 <img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/myUDTree-eg-sentence2.png" alt="dependency tree for example sentence no. 2" width="800"/>  
 </p>  
 <div align="center">
-  Fig.2 Dependency tree for the example sentence no. 2: "ချစ်မေတ္တာ သင်္ကေတ အနေနဲ့ နှင်းဆီပန်း ကို ပို့ပေး ခဲ့ တယ် ။"  
+  Fig.2 Dependency tree for the example sentence no. 2: "ချစ်မေတ္တာ သင်္ကေတ အနေနဲ့ နှင်းဆီပန်းကို ပို့ပေးခဲ့တယ်။"  
 </div> 
 
 <br />
@@ -140,7 +140,7 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 <img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/myUDTree-eg-sentence3.png" alt="dependency tree for example sentence no. 3" width="800"/>  
 </p>  
 <div align="center">
-  Fig.3 Dependency tree for the example sentence no. 3: "ကိုရီးယား - မြန်မာ အဘိဓါန် တစ် အုပ် ဝယ် မ လို့ ပါ ။"  
+  Fig.3 Dependency tree for the example sentence no. 3: "ကိုရီးယား-မြန်မာ အဘိဓါန် တစ်အုပ်ဝယ်မလို့ပါ။"  
 </div> 
 
 <br />
@@ -163,7 +163,7 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 <img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/myUDTree-eg-sentence4.png" alt="dependency tree for example sentence no. 4" width="800"/>  
 </p>  
 <div align="center">
-  Fig.4 Dependency tree for the example sentence no. 4: "Country code ကို လည်း တပါတည်း တွဲထည့် ပေး ထား ပါ သည် ။"  
+  Fig.4 Dependency tree for the example sentence no. 4: "Country code ကိုလည်း တပါတည်းတွဲထည့် ပေး ထားပါသည်။"  
 </div> 
 
 <br />
@@ -191,7 +191,7 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 <img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/myUDTree-eg-sentence5.png" alt="dependency tree for example sentence no. 5" width="800"/>  
 </p>  
 <div align="center">
-  Fig.5 Dependency tree for the example sentence no. 5: "မက်ဆင်ဂျာ အာကာသယာဉ် သည် ဂြိုဟ် အနီး မှ ဖြတ် ၍ တစ် ကြိမ် ပျံသန်း ခဲ့ ပြီး ဖြစ် သည် ။"  
+  Fig.5 Dependency tree for the example sentence no. 5: "မက်ဆင်ဂျာ အာကာသယာဉ်သည် ဂြိုဟ်အနီးမှ ဖြတ်၍ တစ်ကြိမ်ပျံသန်းခဲ့ပြီး ဖြစ်သည်။"  
 </div> 
 
 <br />
