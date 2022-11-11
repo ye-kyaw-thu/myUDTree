@@ -206,6 +206,22 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 
 <br />
 
+### Dependency relationship of each word
+
+CoNLL-U Viewer tool ကို သုံးပြီးတော့ မြန်မာစာလုံး တစ်လုံးချင်းစီကို mouse pointer နဲ့ ထောက်ပေးလိုက်ရင်၊ အဲဒီ စာလုံး တစ်လုံးချင်းစီက ချိတ်ဆက်နေတဲ့ dependency relationship လမ်းကြောင်းတွေကို highlight လုပ်ပေးလို့ အသေးစိတ်လေ့လာချင်သူတွေအတွက်လည်း အသုံးဝင်ပါလိမ့်မယ်။  
+
+အောက်ပါ ပုံက အထက်မှာပေးခဲ့တဲ့ ဥပမာစာကြောင်းနံပါတ် ၃ ရဲ့ output graph ကိုပဲ "အဘိဓါန်" ဆိုတဲ့ စာလုံးကို mouse pointer ထောက်ကြည့်ရင် မြင်ရမယ့် အပြာရောင်မြှားအထူနဲ့ ပြပေးမယ့် dependency relationship တွေဖြစ်ပါတယ်။  
+
+<p align="center">
+<img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/highlight-example-with-sent3.png" alt="Highlighting demo with sentence no.3" width="800"/>  
+</p>  
+<div align="center">
+  Fig.6 Highlighting demo with example sentence no. 3 when you point the mouse pointer on the word "အဘိဓါန်"  
+</div> 
+
+<br />
+
+
 ## To Do
 
 - Recheck myUDTree ver.1  
