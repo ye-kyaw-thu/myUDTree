@@ -234,6 +234,157 @@ CoNLL-U Viewer tool ကို သုံးပြီးတော့ မြန်�
 
 ရှဲလုပ်ထားတဲ့ jPTDP မော်ဒယ်တွေကို သုံးပြီးတော့ raw မြန်မာစာ စာကြောင်း တွေကို ဘယ်လို UDTree parsing လုပ်ရသလဲ ဆိုတာကို အလွယ် ရှင်းပြရရင် ...   
 
+## Clone jPTDP
+
+```
+(jPTDP-cpu) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test$ git clone https://github.com/bryant1410/jPTDP
+Cloning into 'jPTDP'...
+remote: Enumerating objects: 124, done.
+remote: Total 124 (delta 0), reused 0 (delta 0), pack-reused 124
+Receiving objects: 100% (124/124), 59.34 KiB | 161.00 KiB/s, done.
+Resolving deltas: 100% (70/70), done.
+(jPTDP-cpu) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test$
+
+(jPTDP-cpu) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ ls
+decoder.py  jPTDP.py  learner.py  License.txt  mnnl.py  README.md  sample  utils  utils.py
+(jPTDP-cpu) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$
+```
+
+## Installation of DyNet
+
+```
+(py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ pip install dynet
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+Collecting dynet
+  Downloading https://files.pythonhosted.org/packages/19/69/3fe9fd6d2a270ceb5ab2646f596378dcb7be7e5fd7adb8d3b932b98f0656/dyNET-2.1.2-cp27-cp27mu-manylinux1_x86_64.whl (4.2MB)
+     |████████████████████████████████| 4.2MB 1.7MB/s 
+Collecting cython
+  Downloading https://files.pythonhosted.org/packages/72/a4/9e79a693b332eb013e684853abaa54223deb1df0115547f43f81a613d2f9/Cython-0.29.32-cp27-cp27mu-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.9MB)
+     |████████████████████████████████| 1.9MB 12.0MB/s 
+Requirement already satisfied: numpy in /home/ye/.local/lib/python2.7/site-packages (from dynet) (1.16.6)
+Installing collected packages: cython, dynet
+Successfully installed cython-0.29.32 dynet-2.1.2
+(py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$
+```
+
+## Check/Install Future
+
+```
+(py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ pip install future
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+Requirement already satisfied: future in /home/ye/tool/anaconda3/envs/py2.7/lib/python2.7/site-packages (0.18.2)
+(py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$
+```
+
+## Prepare Test File
+
+```
+(py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ cat raw.txt
+စာကြည့်တိုက် ကို သွား ပြီး တော့ စာအုပ် ဖတ် မလို့ ။
+သူ ဟာ ပိုက်ဆံရှာ ဖို့ ကို သာလျှင် စဉ်းစား နေ တယ် ။
+တူလေး ကို နားဝင်အောင် ဆုံးမ ပြောဆို သည် ။
+```
+
+## Converting Raw into CONLLU Format
+
+```
+(py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ python ./utils/converter.py ./raw.txt 
+(py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ ls raw.txt.conllu 
+raw.txt.conllu
+```
+
+## Check the Converted Output File
+
+```
+(py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ cat raw.txt.conllu 
+1	စာကြည့်တိုက်	_	_	_	_	_	_	_	_
+2	ကို	_	_	_	_	_	_	_	_
+3	သွား	_	_	_	_	_	_	_	_
+4	ပြီး	_	_	_	_	_	_	_	_
+5	တော့	_	_	_	_	_	_	_	_
+6	စာအုပ်	_	_	_	_	_	_	_	_
+7	ဖတ်	_	_	_	_	_	_	_	_
+8	မလို့	_	_	_	_	_	_	_	_
+9	။	_	_	_	_	_	_	_	_
+
+1	သူ	_	_	_	_	_	_	_	_
+2	ဟာ	_	_	_	_	_	_	_	_
+3	ပိုက်ဆံရှာ	_	_	_	_	_	_	_	_
+4	ဖို့	_	_	_	_	_	_	_	_
+5	ကို	_	_	_	_	_	_	_	_
+6	သာလျှင်	_	_	_	_	_	_	_	_
+7	စဉ်းစား	_	_	_	_	_	_	_	_
+8	နေ	_	_	_	_	_	_	_	_
+9	တယ်	_	_	_	_	_	_	_	_
+10	။	_	_	_	_	_	_	_	_
+
+1	တူလေး	_	_	_	_	_	_	_	_
+2	ကို	_	_	_	_	_	_	_	_
+3	နားဝင်အောင်	_	_	_	_	_	_	_	_
+4	ဆုံးမ	_	_	_	_	_	_	_	_
+5	ပြောဆို	_	_	_	_	_	_	_	_
+6	သည်	_	_	_	_	_	_	_	_
+7	။	_	_	_	_	_	_	_	_
+
+(py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ 
+```
+
+## Parsing on CPU
+
+```
+(py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ time python jPTDP.py --predict --model ../model/mypos-ver-3-dep-model --params ../model/mypos-ver-3-dep-model.params --test ./raw.txt.conllu --outdir ./ --output raw.txt.conllu.pred
+[dynet] random seed: 1895699260
+[dynet] allocating memory: 512MB
+[dynet] memory allocation done.
+Loading pre-trained model
+Predicting POS tags and parsing dependencies
+The dy.parameter(...) call is now DEPRECATED.
+        There is no longer need to explicitly add parameters to the computation graph.
+        Any used parameter will be added automatically.
+
+real	0m3.656s
+user	0m3.472s
+sys	0m0.444s
+(py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ 
+```
+
+## Check the Parsed Output File
+
+```
+(py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ cat ./raw.txt.conllu.pred 
+1	စာကြည့်တိုက်	_	NOUN	_	_	3	obl	_	_
+2	ကို	_	ADP	_	_	1	case	_	_
+3	သွား	_	VERB	_	_	7	acl	_	_
+4	ပြီး	_	SCONJ	_	_	3	mark	_	_
+5	တော့	_	PART	_	_	3	case	_	_
+6	စာအုပ်	_	NOUN	_	_	7	obl	_	_
+7	ဖတ်	_	VERB	_	_	0	root	_	_
+8	မလို့	_	PART	_	_	7	mark	_	_
+9	။	_	PUNCT	_	_	7	punct	_	_
+
+1	သူ	_	PRON	_	_	3	obl	_	_
+2	ဟာ	_	ADP	_	_	1	case	_	_
+3	ပိုက်ဆံရှာ	_	VERB	_	_	7	acl	_	_
+4	ဖို့	_	PART	_	_	3	mark	_	_
+5	ကို	_	ADP	_	_	3	case	_	_
+6	သာလျှင်	_	PART	_	_	3	case	_	_
+7	စဉ်းစား	_	VERB	_	_	0	root	_	_
+8	နေ	_	PART	_	_	7	mark	_	_
+9	တယ်	_	ADP	_	_	7	case	_	_
+10	။	_	PUNCT	_	_	7	punct	_	_
+
+1	တူလေး	_	NOUN	_	_	5	obl	_	_
+2	ကို	_	ADP	_	_	1	case	_	_
+3	နားဝင်အောင်	_	NOUN	_	_	5	obl	_	_
+4	ဆုံးမ	_	VERB	_	_	5	acl	_	_
+5	ပြောဆို	_	VERB	_	_	0	root	_	_
+6	သည်	_	ADP	_	_	5	case	_	_
+7	။	_	PUNCT	_	_	5	punct	_	_
+
+
+(py2.7) ye@ykt-pro:/media/ye/project1/paper/isai-nlp2022/conf/zzh/parsing-test/jPTDP$ 
+```
+
 
 ## Citation
 
