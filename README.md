@@ -92,6 +92,15 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 6	။	_	PUNCT	_	_	4	punct	_	_
 ```
 
+<p align="center">
+<img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/myUDTree-eg-sentence1.png" alt="dependency tree for example sentence no. 1" width="800"/>  
+</p>  
+<div align="center">
+  Fig.1 Dependency tree for the example sentence no. 1: "ကျသင့် ငွေ က ဘယ်လောက် လဲ ။"  
+</div> 
+
+<br />
+
 ```
 1	ချစ်မေတ္တာ	_	NOUN	_	_	2	compound	_	_
 2	သင်္ကေတ	_	NOUN	_	_	6	obl	_	_
