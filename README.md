@@ -65,7 +65,7 @@ Myanmar dependency structure မှာ အများဆုံး အသုံ�
 ------------
 
 
-ဒေတာပမာဏ မတူတဲ့ myPOS ver. 1.0 နှင့် ver. 3.0 နှစ်မျိုးစလုံးကို အသုံးပြုပြီး experiment လုပ်ခဲ့တဲ့ dependency parsing model နှစ်ခု (i.e., [jPTDP](https://github.com/datquocnguyen/jPTDP) and [UniParse](https://github.com/danielvarab/uniparse)) အကြား မတူညီတဲ့ accuracy ရလဒ်တွေကို အောက်ပါ Table 2 မှာ ဖော်ပြထားပါတယ်။
+ဒေတာပမာဏ မတူတဲ့ myPOS ver. 1.0 နှင့် ver. 3.0 နှစ်မျိုးစလုံးကို အသုံးပြုပြီး experiment လုပ်ခဲ့တဲ့ dependency parsing model နှစ်ခု (i.e., [jPTDP](https://github.com/datquocnguyen/jPTDP) and [UniParse](https://github.com/danielvarab/uniparse)) အကြား မတူညီတဲ့ accuracy ရလဒ်တွေကို အောက်ပါ Table 2 မှာ ဖော်ပြထားပါတယ်။ Accuracy အနေနဲ့က UniParse က jPTDP ထက် UAS ရလဒ်မှာရော LAS ရလဒ်မှာပါ အနည်းငယ် သာလွန်တာကို ထင်ထင်ရှားရှား မြင်ကြရပါလိမ့်မယ်။  
 
 Table 2. Comparison of accuracy values between dependency parsing models  
 
