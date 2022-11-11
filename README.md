@@ -419,13 +419,13 @@ $ tree -L 1
 4 directories, 0 files
 ```
 
-iSAI-NLP-2022-experiment\ ဖိုလ်ဒါက iSAI-NLP 2022 စာတမ်းအတွက် ပြင်ဆင်ခဲ့တဲ့ experiment folder ပါ။ အဲဒီထဲမှာ myPOS ver. 1.0 နဲ့ ပြီးတော့ ဒေတာပိုများတဲ့ myPOS ver. 3.0 နဲ့ training ခဲ့တုန်းက model parameter နဲ့ running log ဖိုင်တွေ ရှိပါလိမ့်မယ်။ မော်ဒယ်ဖိုင်တွေကတော့ filesize ကြီးလို့ GitHub မှာ တင်ဖို့ အဆင်မပြေလို့ link နဲ့ ရှဲလုပ်ပေးထားပါတယ်။   
+**iSAI-NLP-2022-experiment\** ဖိုလ်ဒါက iSAI-NLP 2022 စာတမ်းအတွက် ပြင်ဆင်ခဲ့တဲ့ experiment folder ပါ။ အဲဒီထဲမှာ myPOS ver. 1.0 နဲ့ ပြီးတော့ ဒေတာပိုများတဲ့ myPOS ver. 3.0 နဲ့ training ခဲ့တုန်းက model parameter နဲ့ running log ဖိုင်တွေ ရှိပါလိမ့်မယ်။ မော်ဒယ်ဖိုင်တွေကတော့ filesize ကြီးလို့ GitHub မှာ တင်ဖို့ အဆင်မပြေလို့ link နဲ့ ရှဲလုပ်ပေးထားပါတယ်။   
 
-myPOS-V3-Parsed-DP-Data\ ဖိုလ်ဒါ ကတော့ myPOS ver. 1.0 ကနေ corpus extension လုပ်စဉ်မှာ သုံးခဲ့တဲ့ ဒေတာဖိုင် တစ်ခုချင်းစီရဲ့ UDTree parsing လုပ်ထားပြီးသား၊ manual လည်း စစ်ထားတဲ့ ဖိုင်တွေ ရှိပါလိမ့်မယ်။ ဒီဖိုလ်ဒါက တကယ်က user တွေအတွက်ဆိုတာထက် နောက်ပိုင်း ဆက်လုပ်မယ့် experiment တွေအတွက် reference အဖြစ် သိမ်းထားတာပါ။   
+**myPOS-V3-Parsed-DP-Data\** ဖိုလ်ဒါ ကတော့ myPOS ver. 1.0 ကနေ corpus extension လုပ်စဉ်မှာ သုံးခဲ့တဲ့ ဒေတာဖိုင် တစ်ခုချင်းစီရဲ့ UDTree parsing လုပ်ထားပြီးသား၊ manual လည်း စစ်ထားတဲ့ ဖိုင်တွေ ရှိပါလိမ့်မယ်။ ဒီဖိုလ်ဒါက တကယ်က user တွေအတွက်ဆိုတာထက် နောက်ပိုင်း ဆက်လုပ်မယ့် experiment တွေအတွက် reference အဖြစ် သိမ်းထားတာပါ။   
 
-myUDTree-ver1.0\ ဖိုလ်ဒါ အောက်မှာတော့ myUDTree version 1.0 ဒေတာဖိုင်ကို CoNLL-standard format နဲ့ သိမ်းပေးထားပါတယ်။  
+**myUDTree-ver1.0\** ဖိုလ်ဒါ အောက်မှာတော့ myUDTree version 1.0 ဒေတာဖိုင်ကို CoNLL-standard format နဲ့ သိမ်းပေးထားပါတယ်။  
 
-pic\ ဖိုလ်ဒါကတော့ အခု ဖတ်နေတဲ့ README ဖိုင်အတွက် ဥပမာအဖြည့် ထည့်ထားတဲ့ UDTree graph ပုံတွေကို သိမ်းထားတဲ့ ဖိုလ်ဒါပါ။  
+**pic\** ဖိုလ်ဒါကတော့ အခု ဖတ်နေတဲ့ README ဖိုင်အတွက် ဥပမာအဖြည့် ထည့်ထားတဲ့ UDTree graph ပုံတွေကို သိမ်းထားတဲ့ ဖိုလ်ဒါပါ။  
 
 
 ## Citation
