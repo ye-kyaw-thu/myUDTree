@@ -76,6 +76,15 @@ Table 2. Comparison of accuracy values between dependency parsing models
 
 Note: jPTDT Model က Raw Text Data ကို Parsed လုပ်ပေးနိုင်သော်လည်း UniParse Model ဟာဆိုရင်ဖြင့် Raw Text Data များကို Parsed မလုပ်ပေးနိုင်ပါ။ 
 
+## Introduction to CoNLL-U Viewer tool
+
+CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံးပြုပြီး dependency tree structure တွေကို ကြည့်တာ ပုံတွေကို save လုပ်တာ လုပ်နိုင်ပါတယ်။ CoNLL-U Viewer website မှာ CoNLL-U Formart ဖြင့် သိမ်းဆည်းထားတဲ့ text file ကို upload လုပ်ပေးလိုက်ယုံပါပဲ။  
+
+
+ဥပမာ အနေနဲ့ myUDTree (version 1.0) ထဲမှာ ပါဝင်တဲ့ အောက်ပါ စာကြောင်းသုံးကြောင်းကို CoNLL-U Viewer ကို upload လုပ်လိုက်ရင် စာကြောင်း တစ်ကြောင်းချင်းစီအတွက် dependency relationship ပုံတွေကို output အနေနဲ့ ရလာပါလိမ့်မယ်။  
+
+
+
 ## To Do
 
 - Recheck myUDTree ver.1  
