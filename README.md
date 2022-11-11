@@ -98,7 +98,7 @@ Input:
 
 Output:  
 <p align="center">
-<img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/myUDTree-eg-sentence1.png" alt="dependency tree for example sentence no. 1" width="800"/>  
+<img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/myUDTree-eg-sentence1b.png" alt="dependency tree for example sentence no. 1" width="800"/>  
 </p>  
 <div align="center">
   Fig.1 Dependency tree for the example sentence no. 1: "ကျသင့်ငွေ က ဘယ်လောက်လဲ။"  
