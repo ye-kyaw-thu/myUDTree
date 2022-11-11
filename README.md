@@ -442,6 +442,9 @@ https://github.com/danielvarab/uniparse
 9. DyNet Framework:  
 https://dynet.readthedocs.io/en/latest/python.html
 
+10. Converter from .conllu format to .conll format for Universal Dependencies:  
+https://github.com/diegotxegp/conllu-to-conll
+
 
 ## To Do
 
