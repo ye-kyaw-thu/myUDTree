@@ -198,7 +198,7 @@ CoNLL-U Viewer (https://urd2.let.rug.nl/~kleiweg/conllu/) ကို အသုံ
 ```
 
 <p align="center">
-<img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/myUDTree-eg-sentence5.png" alt="dependency tree for example sentence no. 5" width="800"/>  
+<img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/highlight-eg-sent3-point-word-dict.png" alt="dependency tree for example sentence no. 5" width="800"/>  
 </p>  
 <div align="center">
   Fig.5 Dependency tree for the example sentence no. 5: "မက်ဆင်ဂျာ အာကာသယာဉ်သည် ဂြိုဟ်အနီးမှ ဖြတ်၍ တစ်ကြိမ်ပျံသန်းခဲ့ပြီး ဖြစ်သည်။"  
