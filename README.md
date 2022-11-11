@@ -238,17 +238,18 @@ CoNLL-U Viewer tool ကို သုံးပြီးတော့ မြန်�
 ရှဲလုပ်ထားတဲ့ jPTDP မော်ဒယ်တွေကို သုံးပြီးတော့ raw မြန်မာစာ စာကြောင်း တွေကို ဘယ်လို UDTree parsing လုပ်ရသလဲ ဆိုတာကို အလွယ် ရှင်းပြရရင် ...   
 
 
-## To Do
-
-- Recheck myUDTree ver.1  
-- Active learning and Manual UDTree tagging for myUDTree corpus extension  
-- DTree parsing experiments for Myanmar language
-
 ## Citation
 
 If you want to use myUDTree JPTDP models or myUDTree corpus in your research and we'd appreciate if you use the following reference:  
 
 Zar Zar Hlaing, Ye Kyaw Thu, Thepchai Supnithi and Ponrudee Netisopakul, "Graph-based Dependency Parser Building for Myanmar Language", In Proceedings of the 17th International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP 2022), Nov 5 to 7, 2022, Chiang Mai, Thailand, pp. xx-xx. [to appear], [[Slide]](https://github.com/ye-kyaw-thu/papers/blob/master/iSAI-NLP2022/9510_Graph-basedDependencyParserBuildingforMyanmarLanguage.pdf)  
+
+## Lincense
+
+Creative Commons Attribution-NonCommercial-Share Alike 4.0 International (CC BY-NC-SA 4.0) License  
+[Details Info of License](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
+
+Contact email: yktnlp[at]gmail.com  
 
 ## Reference
 
@@ -271,7 +272,11 @@ https://github.com/datquocnguyen/jPTDP?fbclid=IwAR2xUeHdT4tGMD0vQ7nor7aXjfuDtaFa
 https://github.com/danielvarab/uniparse  
 
 
+## To Do
 
+- Recheck myUDTree ver.1  
+- Active learning and Manual UDTree tagging for myUDTree corpus extension  
+- DTree parsing experiments for Myanmar language
 
 
 
