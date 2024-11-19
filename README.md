@@ -143,7 +143,7 @@ Output:
 <img src="https://github.com/ye-kyaw-thu/myUDTree/blob/main/ver-1.0/pic/myUDTree-eg-sentence3b.png" alt="dependency tree for example sentence no. 3" width="800"/>  
 </p>  
 <div align="center">
-  Fig.3 Dependency tree for the example sentence no. 3: "ကိုရီးယား-မြန်မာ အဘိဓါန် တစ်အုပ်ဝယ်မလို့ပါ။"  
+  Fig.3 Dependency tree for the example sentence no. 3: "ထမင်း ကို နည်းနည်း ရ နိုင် ပါ သလား ။"  
 </div> 
 
 <br />
